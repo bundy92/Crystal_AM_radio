@@ -874,32 +874,32 @@
 		)
 	)
 	(junction
-		(at 121.92 81.28)
+		(at 119.38 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16ed48fe-05c0-436a-a62e-9421e146bb5b")
 	)
 	(junction
-		(at 137.16 110.49)
+		(at 134.62 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37eaf5dd-3dd6-4d48-ba07-30d007d99ada")
 	)
 	(junction
-		(at 137.16 81.28)
+		(at 134.62 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4868ce94-1e43-47e5-8b65-6ffe950d2239")
 	)
 	(junction
-		(at 121.92 110.49)
+		(at 119.38 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc20eaed-3d52-4d34-b7e3-585cf6f6be60")
 	)
 	(wire
 		(pts
-			(xy 121.92 99.06) (xy 121.92 110.49)
+			(xy 119.38 113.03) (xy 119.38 124.46)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 106.68) (xy 171.45 110.49)
+			(xy 168.91 120.65) (xy 168.91 124.46)
 		)
 		(stroke
 			(width 0)
@@ -919,7 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 121.92 81.28)
+			(xy 134.62 95.25) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -929,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 76.2) (xy 121.92 81.28)
+			(xy 119.38 90.17) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -939,7 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 110.49) (xy 121.92 110.49)
+			(xy 134.62 124.46) (xy 119.38 124.46)
 		)
 		(stroke
 			(width 0)
@@ -949,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 81.28) (xy 137.16 91.44)
+			(xy 134.62 95.25) (xy 134.62 105.41)
 		)
 		(stroke
 			(width 0)
@@ -959,7 +959,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 110.49) (xy 121.92 113.03)
+			(xy 119.38 124.46) (xy 119.38 127)
 		)
 		(stroke
 			(width 0)
@@ -969,7 +969,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 137.16 110.49)
+			(xy 134.62 113.03) (xy 134.62 124.46)
 		)
 		(stroke
 			(width 0)
@@ -979,7 +979,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 110.49) (xy 137.16 110.49)
+			(xy 168.91 124.46) (xy 134.62 124.46)
 		)
 		(stroke
 			(width 0)
@@ -989,7 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 171.45 81.28)
+			(xy 168.91 118.11) (xy 168.91 95.25)
 		)
 		(stroke
 			(width 0)
@@ -999,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 137.16 81.28)
+			(xy 142.24 95.25) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1009,7 +1009,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 81.28) (xy 152.4 81.28)
+			(xy 168.91 95.25) (xy 149.86 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1019,7 +1019,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 81.28) (xy 121.92 91.44)
+			(xy 119.38 95.25) (xy 119.38 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1027,10 +1027,10 @@
 		)
 		(uuid "fb9128d9-6f23-412c-898f-f39325598305")
 	)
-	(text_box "L1 is the inductor coil used for tuning and antenna."
+	(text_box "L1 is the inductor coil used for tuning and as an antenna."
 		(exclude_from_sim yes)
-		(at 104.14 87.63 0)
-		(size 15.24 11.43)
+		(at 101.6 90.17 0)
+		(size 15.24 24.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -1048,7 +1048,7 @@
 	)
 	(text_box "D1 is the diode used for demodulation."
 		(exclude_from_sim no)
-		(at 137.16 66.04 0)
+		(at 134.62 80.01 0)
 		(size 25.4 7.62)
 		(stroke
 			(width 0)
@@ -1065,10 +1065,10 @@
 		)
 		(uuid "56f7c898-e221-49a4-833d-76dc502cf69e")
 	)
-	(text_box "Connect a piezoelectric earpiece to listen to the demodulated radio signal."
+	(text_box "A piezoelectric earpiece(like an old phone or headphone) to listen to the demodulated radio signal."
 		(exclude_from_sim no)
-		(at 172.72 88.9 0)
-		(size 16.51 10.16)
+		(at 170.18 102.87 0)
+		(size 21.59 10.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -1086,7 +1086,7 @@
 	)
 	(text_box "VC_Trim is the variable capacitor used for tuning."
 		(exclude_from_sim no)
-		(at 149.86 90.17 0)
+		(at 147.32 104.14 0)
 		(size 19.05 12.7)
 		(stroke
 			(width 0)
@@ -1105,7 +1105,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 121.92 95.25 0)
+		(at 119.38 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1114,7 +1114,7 @@
 		(fields_autoplaced yes)
 		(uuid "02a0e643-5162-4357-87b5-e2e4729d825c")
 		(property "Reference" "L1"
-			(at 123.19 93.9799 0)
+			(at 120.65 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1123,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 123.19 96.5199 0)
+			(at 120.65 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,7 +1132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 95.25 0)
+			(at 119.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 95.25 0)
+			(at 119.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,7 +1150,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 121.92 95.25 0)
+			(at 119.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1175,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 113.03 0)
+		(at 119.38 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1184,7 +1184,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e04e883-d767-4a9d-a083-659df4960b24")
 		(property "Reference" "#PWR01"
-			(at 121.92 119.38 0)
+			(at 119.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 118.11 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 113.03 0)
+			(at 119.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 113.03 0)
+			(at 119.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 113.03 0)
+			(at 119.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1241,7 @@
 	)
 	(symbol
 		(lib_id "Device:Speaker_Crystal")
-		(at 176.53 104.14 0)
+		(at 173.99 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1250,7 +1250,7 @@
 		(fields_autoplaced yes)
 		(uuid "58091073-e64d-4add-9529-8276a29f5eca")
 		(property "Reference" "LS1"
-			(at 181.61 104.1399 0)
+			(at 179.07 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1259,7 @@
 			)
 		)
 		(property "Value" "Speaker_Crystal"
-			(at 181.61 106.6799 0)
+			(at 179.07 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.641 105.41 0)
+			(at 173.101 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1277,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.641 105.41 0)
+			(at 173.101 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1286,7 @@
 			)
 		)
 		(property "Description" "Crystal speaker/transducer"
-			(at 176.53 104.14 0)
+			(at 173.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1311,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 121.92 71.12 0)
+		(at 119.38 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1320,7 +1320,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d422960-a267-4a13-bf17-3f25907dff33")
 		(property "Reference" "AE1"
-			(at 124.46 70.4849 0)
+			(at 121.92 84.4549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1329,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 124.46 73.0249 0)
+			(at 121.92 86.9949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1338,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 71.12 0)
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1347,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 71.12 0)
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1356,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 121.92 71.12 0)
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1378,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Trim")
-		(at 137.16 95.25 0)
+		(at 134.62 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1387,7 +1387,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef239937-8918-47ec-a5d9-073d0149d1bf")
 		(property "Reference" "C1"
-			(at 140.97 93.7259 0)
+			(at 138.43 107.6959 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1396,7 @@
 			)
 		)
 		(property "Value" "VC_Trim"
-			(at 140.97 96.2659 0)
+			(at 138.43 110.2359 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 95.25 0)
+			(at 134.62 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 95.25 0)
+			(at 134.62 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1423,7 @@
 			)
 		)
 		(property "Description" "Trimmable capacitor"
-			(at 137.16 95.25 0)
+			(at 134.62 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1448,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 148.59 81.28 180)
+		(at 146.05 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1457,7 +1457,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff2d38eb-c485-40c8-87a5-6561de2fcb18")
 		(property "Reference" "D1"
-			(at 148.59 74.93 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1465,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 148.59 77.47 0)
+			(at 146.05 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 81.28 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 81.28 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 148.59 81.28 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1500,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 148.59 81.28 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,7 +1509,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 81.28 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
