@@ -34,13 +34,8 @@ To build the crystal/foxhole radio using KiCad, you'll need:
 ## Contributors
 
 - [Your Name](https://github.com/yourusername) - Project Lead & Developer
-- [Contributor 1](https://github.com/contributor1) - Electronics Engineer
-- [Contributor 2](https://github.com/contributor2) - Technical Writer
+
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-We would like to thank the open-source community for their invaluable contributions to electronics education. Special thanks to [OpenAI](https://openai.com/) for providing AI-powered assistance in crafting this project documentation.
