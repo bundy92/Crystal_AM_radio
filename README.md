@@ -1,7 +1,7 @@
 
 # Crystal/Foxhole Radio
 
-Welcome to the Crystal/Foxhole Radio Project! This project aims to provide a practical guide for building a simple radio receiver using minimal components, commonly known as a crystal or foxhole radio. The project includes both theoretical insights and practical instructions for constructing the radio using KiCad, a popular electronic design automation tool.
+This project aims to provide a practical guide for building a simple AM radio receiver using minimal components, commonly known as a crystal or foxhole radio. The project includes both theoretical insights and practical instructions for constructing the radio using KiCad, a popular electronic design automation tool.
 
 ## Overview
 
@@ -33,8 +33,7 @@ To build the crystal/foxhole radio using KiCad, you'll need:
 
 ## Contributors
 
-- [Your Name](https://github.com/yourusername) - Project Lead & Developer
-
+- [Thomas Bundy](https://github.com/bundy92) - Electrical Engineer
 
 ## License
 
